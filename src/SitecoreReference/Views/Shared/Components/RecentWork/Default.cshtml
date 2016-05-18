@@ -1,0 +1,5 @@
+﻿@model IEnumerable<SitecoreReference.Models.RecentWork>
+@foreach (var recentWork in Model.Take(8))
+{
+    @Html.Partial("_RecentWorkItem", recentWork)
+}

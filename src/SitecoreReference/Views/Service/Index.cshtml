@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Services";
+}
+<section id="feature" class="transparent-bg">
+    <div class="container">
+        @Html.Partial("_OurServicesRound")
+        @Html.Partial("_GetStarted")
+        @Component.Invoke("ClientComments")
+
+    </div><!--/.container-->
+</section><!--/#feature-->

@@ -1,0 +1,9 @@
+{
+	"version": "1.0.0",
+	"name": "sitecoreference",
+	"private": true,
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
